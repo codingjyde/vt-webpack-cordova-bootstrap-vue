@@ -110,6 +110,14 @@ module.exports = {
       type: 'confirm',
       message: 'Setup e2e tests with Nightwatch?',
     },
+    cordova: {
+      type: 'confirm',
+      message: 'Set up cordova?'
+    },
+    bootstrapVue: {
+      type: 'confirm',
+      message: 'Set up bootstrap-vue?'
+    },
     autoInstall: {
       type: 'list',
       message:
