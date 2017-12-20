@@ -1,4 +1,8 @@
+Thanks for those guys who made greate work below:
 ref https://ellipticaldoor.com/2017-10-22-making-work-the-vue-js-template-with-cordova/
+ref Project https://github.com/bootstrap-vue/bootstrap-vue, and its document https://bootstrap-vue.js.org/docs
+ref Vue cli template https://github.com/AppointmentGuru/webpack-mobile-f7
+
 
 # vue-webpack-boilerplate
 
