@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = merge(prodEnv, {
-  NODE_ENV: '"prodction"',
+module.exports = {
+  NODE_ENV: '"production"',
   PLATFORM: '"mobile"'
-})
+}
