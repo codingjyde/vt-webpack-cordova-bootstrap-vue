@@ -21,19 +21,21 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init suilaiji/vt-webpack-cordova-bootstrap-vue#develop my-project
 $ cd my-project
 $ npm install
 $ npm run dev
 ```
-
-This will scaffold the project using the `master` branch. If you wish to use the latest version of the webpack template, do the following instead:
-
+and if you've set up cordova when init project, you can
 ``` bash
-$ vue init webpack#develop my-project
+$ npm run build-mobile
+$ npm run cordova-build
+$ npm run cordova-run
+$ npm run cordova-platform-add-ios
+$ npm run cordova-run-ios
+$ npm run cordova-platform-add-android
+$ npm run cordova-run-android
 ```
-
-:warning: **The develop branch is not considered stable and can contain bugs or not build at all, so use at your own risk.**
 
 The development server will run on port 8080 by default. If that port is already in use on your machine, the next free port will be used.
 
