@@ -3,15 +3,16 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 {{/if_eq}}
 import Vue from 'vue'
-import App from './App'
-import BootstrapVue from 'bootstrap-vue'
+import App from './App'{{#bootstrapVue}}
+import BootstrapVue from 'bootstrap-vue'{{/bootstrapVue}}
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 {{#router}}
 import router from './router'
 {{/router}}
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false{{#bootstrapVue}}
+Vue.use(BootstrapVue){{/bootstrapVue}}
 
 /* eslint-disable no-new */
 new Vue({

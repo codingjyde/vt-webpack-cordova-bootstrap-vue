@@ -154,6 +154,11 @@ module.exports = {
     'test/unit/setup.js': "unit && runner === 'jest'",
     'test/e2e/**/*': 'e2e',
     'src/router/**/*': 'router',
+    'config.xml': 'cordova',
+    'config/mobile.env.js': 'cordova',
+    'build/build-mobile.js': 'cordova',
+    'build/webpack.base-mobile.conf.js': 'cordova',
+    'build/webpack.prod-mobile.conf.js': 'cordova',
   },
   complete: function(data, { chalk }) {
     const green = chalk.green

@@ -22,14 +22,14 @@
     {{#lint}}
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}",
     {{/lint}}
-    "build": "node build/build.js",
+    "build": "node build/build.js"{{#cordova}},
     "build-mobile": "node build/build-mobile.js",
     "cordova-build": "node build/build-mobile.js && cordova build",
     "cordova-run": "node build/build-mobile.js && cordova run browser",
     "cordova-platform-add-ios": "cordova platform add ios",
     "cordova-run-ios": "node build/build-mobile.js && cordova run ios",
     "cordova-platform-add-android": "cordova platform add android",
-    "cordova-run-android": "node build/build-mobile.js && cordova run android"
+    "cordova-run-android": "node build/build-mobile.js && cordova run android"{{/cordova}}
   },
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
