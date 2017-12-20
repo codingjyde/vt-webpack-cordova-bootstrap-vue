@@ -1,3 +1,5 @@
+ref https://ellipticaldoor.com/2017-10-22-making-work-the-vue-js-template-with-cordova/
+
 # vue-webpack-boilerplate
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
