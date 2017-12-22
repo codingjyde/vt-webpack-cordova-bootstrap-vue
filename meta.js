@@ -159,7 +159,7 @@ module.exports = {
     'build/build-mobile.js': 'cordova',
     'build/webpack.base-mobile.conf.js': 'cordova',
     'build/webpack.prod-mobile.conf.js': 'cordova',
-    'www/': 'cordova'
+    'www/**/*': 'cordova'
   },
   complete: function(data, { chalk }) {
     const green = chalk.green
