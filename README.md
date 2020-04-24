@@ -26,7 +26,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init suilaiji/vt-webpack-cordova-bootstrap-vue#develop my-project
+$ vue init codingjyde/vt-webpack-cordova-bootstrap-vue#develop my-project
 $ cd my-project
 $ npm install
 $ npm run dev
